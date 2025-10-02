@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Vidyashree</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Vidyashree</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="skills.html" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link active">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <section class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h1 class="section-title">My Projects</h1>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">
+                    A showcase of my latest work, demonstrating various skills and technologies
+                </p>
+            </div>
+            
+            <!-- Project Filter -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="ui">UI/UX</button>
+                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+            </div>
+            
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+                <div class="project-card" data-category="web fullstack">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/974314/pexels-photo-974314.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Agricultural Management System">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Agricultural Management System</h3>
+                        <p class="project-description">
+                            A comprehensive web-based system designed to help farmers manage their agricultural activities, 
+                            track crop cycles, monitor weather conditions, and optimize farming operations.
+                        </p>
+                        <div class="project-problem">
+                            <h4>Problem Statement:</h4>
+                            <p>Farmers struggle with manual record-keeping and lack access to modern tools for efficient farm management and crop monitoring.</p>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="fullstack">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=600" alt="ICT Laboratory Management">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">ICT Laboratory Management System</h3>
+                        <p class="project-description">
+                            A digital solution for managing computer laboratory resources, equipment tracking, 
+                            student attendance, and lab scheduling in educational institutions.
+                        </p>
+                        <div class="project-problem">
+                            <h4>Problem Statement:</h4>
+                            <p>Educational institutions need efficient systems to manage computer lab resources, track equipment, and schedule lab sessions effectively.</p>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="fullstack">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/210012/pexels-photo-210012.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Railway Track Crack Detection">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Railway Track Crack Detection using CNN</h3>
+                        <p class="project-description">
+                            An AI-powered system using Convolutional Neural Networks to automatically detect 
+                            cracks and defects in railway tracks for enhanced safety and maintenance. (Ongoing Project)
+                        </p>
+                        <div class="project-problem">
+                            <h4>Problem Statement:</h4>
+                            <p>Manual inspection of railway tracks is time-consuming, expensive, and may miss critical defects that could lead to accidents.</p>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">CNN</span>
+                            <span class="tech-tag">Deep Learning</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="web fullstack">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Interactive Portfolio">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Interactive Portfolio Website</h3>
+                        <p class="project-description">
+                            A modern, responsive portfolio website featuring smooth animations, 
+                            particle effects, and interactive elements to showcase professional work and projects.
+                        </p>
+                        <div class="project-problem">
+                            <h4>Problem Statement:</h4>
+                            <p>Traditional resumes and static portfolios fail to effectively showcase technical skills and project capabilities in an engaging way.</p>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Particles.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
